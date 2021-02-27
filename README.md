@@ -1,6 +1,18 @@
 # Ultrasonic_Tripwire #
 Ultrasonic Tripwire, wireless communication to voice alert
 
+# Desired End State #
+
+A voice alert, specific to the sensor/location, is announced with the sensor is tripped. The sensor is located at a certain location in the house, where the condition may occur that is to be alerted. When the sensor is tripped, a wireless signal is sent to the master receiver located centrally in the home. The master receiver, when receiving this signal, initiates the voice alert. 
+
+The desired location is along the railing of the upstairs bannister, so as to be triggered when sensor beam (along the rail) is broken. 
+
+# Requirements #
+
+1. Sensor triggers when Jude commences to scale the bannister, as if to climb over it. 
+2. Voice alert that is loud enough to be heard throughout the downstairs area, and announces the specific condition that occurred, such as "Jude is on the upstairs bannister". 
+3. Wireless transmission from sensor to master receiver. 
+
 # Repository Structure #
 
 1. Project: There is one project associate with this repository. It is used to manage the work/issues.
