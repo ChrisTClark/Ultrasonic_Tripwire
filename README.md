@@ -25,3 +25,10 @@ There are three hardware components with distinct codes for upload into each.
 * Sensor: One battery-powered Arduino with HC-SR04 Ultrasonic sensor and LRFL2401 Transceiver (transmitting sensor information). 
 * Master Receiver: Plug-in Arduino with LRFL2401 Transceiver (acting as receiver to the Ultrasonic Sensor). 
 * Voice Alert: Plug-in Arduino, wired to the Main Receiver with SD card reader and speaker. 
+
+# Work Breakdown Structure #
+
+1. Voice alert
+2. Arduino to Arduino Communication (Master Receiver to Voice Alert component) 
+3. Sensor
+4. Communications between sensor and master receiver
